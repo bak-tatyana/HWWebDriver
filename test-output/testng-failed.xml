@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SystemSuite]">
+  <test name="System(failed)">
+    <classes>
+      <class name="tests.AddProductToCardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyProductInCard"/>
+          <include name="verifyShopCart"/>
+        </methods>
+      </class> <!-- tests.AddProductToCardTest -->
+    </classes>
+  </test> <!-- System(failed) -->
+</suite> <!-- Failed suite [SystemSuite] -->
